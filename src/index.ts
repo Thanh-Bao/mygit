@@ -10,10 +10,10 @@ const main = () => {
         d: 4,
     }; // object
 
-
+    
     // loop
     for (const key in subject) {
-        console.log(key, subject[key]);
+        console.log('Result', key, subject[key]);
     }
 };
 
