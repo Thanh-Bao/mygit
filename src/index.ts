@@ -13,7 +13,7 @@ const main = () => {
 
     // loop
     for (const key in subject) {
-        console.log(key, subject[key]);
+        console.log('Kết quả', key, subject[key]);
     }
 };
 
