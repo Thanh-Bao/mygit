@@ -1,10 +1,17 @@
-const main = () => {
-    const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+interface IndexSignature<T = any> {
+    [Key: string]: T;
+}
 
-    for(const a of arr){
-        console.log(a);
+const main = () => {
+    const subject: IndexSignature = {
+        a: 1,
+        b: 2,
+        c: 3,
+    };
+
+    for (const key in subject) {
+        console.log(key, subject[key]);
     }
 };
-
 
 main();
