@@ -7,8 +7,11 @@ const main = () => {
         a: 1,
         b: 2,
         c: 3,
-    };
+        d: 4,
+    }; // object
 
+
+    // loop
     for (const key in subject) {
         console.log(key, subject[key]);
     }
